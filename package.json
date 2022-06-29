@@ -4,16 +4,17 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start " : "node ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "express": "^4.18.1",
+
     "nodemon": "^2.0.18"
   }
 }
