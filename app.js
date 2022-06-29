@@ -12,13 +12,13 @@ app.use(bodyParser.json());
 //MySql
 const connection = mysql.createConnection(
     {
-        host: 'localhost',
-        user: 'root',
-        password: 'root',
-        database:'node20_mysql'
+        host: 'us-cdbr-east-06.cleardb.net',
+        user: 'b8e66d885b498c',
+        password: 'c08c6937',
+        database:'heroku_87f567e78a0ee5b'
     }
 );
-
+//b8e66d885b498c:c08c6937@us-cdbr-east-06.cleardb.net/heroku_87f567e78a0ee5b?reconnect=true
 // all customers
 app.get('/contactos',(req,res)=>
 {
